@@ -44,8 +44,6 @@ def ConvertDataToCsv(fromFilePath, headers, toFilePath, missingFieldsAllowed, it
                 if dataCount >= headers.__len__()-missingFieldsAllowed:
                     csvWriter.writerow(tempList)
 
-jdkjls = []
-jdkjls.append()
 sourceFileUri = r"Data\modcloth_final_data_medium.json"
 allOutputFileUri = r"Data\modcloth_final_data_all.csv"
 
